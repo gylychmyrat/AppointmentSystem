@@ -31,7 +31,6 @@ const products = [
 
 export default function Review({ personalInfo, appointmentInfo }) {
 
-    console.log('appointmentInfo',appointmentInfo);
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>
