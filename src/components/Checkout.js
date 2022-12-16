@@ -56,7 +56,6 @@ export default function Checkout() {
   useEffect(() => {
 
     if(!isTimerSet && timer){
-      alert('cleariing....')
       clearTimeout(timer)
     }
   }, [isTimerSet]);
